@@ -99,6 +99,7 @@ section img#moon {
 
 section img#mountains_front {
     z-index: 10;
+    
 }
 
 #text {
@@ -141,7 +142,30 @@ section img#mountains_front {
     color: #fff;
 }
 
+h2 {
+    padding-top: 25px;
+    font-size: 1.8rem;
+    color: #fff; 
+}
 
+.gift-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Adjust as needed to control the vertical position */
+}
+
+.gift_box {
+    max-width: 600px; /* Adjust the maximum width */
+    max-height: 600px; /* Adjust the maximum height */
+    transition: transform 0.3s ease; 
+}
+
+.gift_box:hover {
+    transform: scale(1.1); /* Increase size by 10% */
+    filter: brightness(1.2); /* Increase brightness by 20% */
+    
+}
 
 /*old code*/
 /* html {
